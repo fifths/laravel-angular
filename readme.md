@@ -1,6 +1,21 @@
 # laravel5.4 + angular4
 
-## dev
+## first
+
+```
+git clone 
+composer install
+npm install
+```
+
+copy .env.example to .env
+
+```
+php artisan key:generate
+```
+
+## start server
+
 ### 1.node
 ```
 npm start
@@ -10,7 +25,6 @@ or
 
 ### 2.php
 
-#### start server
 ```
 php -S 0.0.0.0 -t ./public
 ```
