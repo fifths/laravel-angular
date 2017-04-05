@@ -33,6 +33,3 @@ php -S 0.0.0.0 -t ./public
 ```
 ng build
 ```
-
-#### drawback
-Unable to access sub path directly through the browser

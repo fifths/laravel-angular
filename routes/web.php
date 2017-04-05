@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::any( '{catchall}', function ( ) {
+    return view("welcome");
+} )->where('catchall', '(.*)');
